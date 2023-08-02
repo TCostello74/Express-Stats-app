@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./express');
+const app = require('./express.js');
 
 describe('Statistics', function() {
     it('should calculate mean', async () => {
